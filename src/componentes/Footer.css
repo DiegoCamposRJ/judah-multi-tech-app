@@ -1,0 +1,154 @@
+.Logo_footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:200px;
+    height:200px;
+}
+.footer{
+    background-color: #3f9cd5;
+    color: white;
+  }
+  .footer2{
+    
+    height: auto;
+    background-color: #d25659;
+    color: white;
+    
+  }
+  .footer_data{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+  .Judah_h3{
+    font-family: 'Anton', sans-serif;
+    font-size:70px;
+    font-weight: 400;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .blocoCNPJ{
+    margin:0;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+
+  }
+  .bloco_infor{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .tel_email_1{
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 30px;
+    
+  }
+  .tel_email_2{
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
+    
+  }
+  .fa-mail-bulk:before{
+    font-size: 2.5rem;
+  }
+  .fa-whatsapp:before{
+    font-size: 2.5rem;
+  }
+  
+  .link_footer a{
+    text-decoration: none;
+    color:aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .link_footer{
+    margin-bottom: 30px;
+  }
+  .icon_footer::before {
+    font-size: 2.0rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .Judah_h3{
+      font-family: 'Anton', sans-serif;
+      font-size:190%;
+      font-weight: 400;
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+    .blocoCNPJ{
+      margin:0;
+      line-height: 1.1;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 130%;
+    }
+    .bloco_infor{
+      font-size: 90%;
+      margin-top: 30px;
+      margin-left: 7%;
+      margin-right: 7%;
+      margin-bottom: 30px;
+    }
+    .tel_email{
+      margin:0;
+      line-height: 1.1;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 100%;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .tel_email_1{
+      line-height: 1.1;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 100%;
+      margin-top: 30px;
+      margin-bottom: 0;
+      
+    }
+    .tel_email_2{
+      line-height: 1.1;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 100%;
+      margin-bottom: 30px;
+    }
+    .fa-whatsapp:before{
+      font-size:120%;
+    }
+    .fa-mail-bulk:before{
+      font-size: 100%;
+    }
+    .icon_footer::before {
+      font-size: 1.5rem;
+      margin-left: 5px;
+      margin-right: 5px;
+      justify-content: center;
+      align-items: center;
+    }
+    .link_footer{
+      margin-bottom: 15px;
+    }
+
+  }
+
+

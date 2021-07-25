@@ -1,0 +1,26 @@
+.Foto_1{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titulo_2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Rubik', bold;
+    font-weight: 700;
+    font-size:58px;
+  }
+.corpo{
+    background-color: #2d5596;
+  }
+  .text_1{
+    font-size: 2.3rem;
+    color:#2d5596;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+  }
