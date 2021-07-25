@@ -1,0 +1,47 @@
+.parceria_titulo{
+    font-size: 2.8rem;
+    color:#1584df;
+    text-decoration: underline #1f7cc9;
+}
+.appList {
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 0;
+    margin: 0 0 var(--ifm-list-margin);
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  .item img {
+    max-width: 30%;
+    padding:5px 5px;
+    border-style: none;
+  }
+  .AppList .item a img {
+    border-radius: 20%;
+    overflow: hidden;
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .parceria_titulo{
+        font-size: 2.7rem;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        
+    }
+    .appList {
+        display:grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        padding: 0;
+        margin: 0 0 var(--ifm-list-margin);
+        list-style: none;
+        margin-bottom: 30px;
+      }
+      .item img {
+        max-width: 110%;
+        padding:25px 10px;
+        border-style: none;
+      }
+}

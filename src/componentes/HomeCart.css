@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    --corbg:#564a99;
+}
+.titulo_3{
+    margin-top: 40px;
+    font-size:2.9rem;
+    color:#4c2919;
+}
+.card{
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px rgb(73, 73, 73);
+    margin: 5% 4%;
+}
+.card_icon{
+    color: #737272;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card_titulo{
+    color:#CCA34E;
+    font-size: 2.5rem;
+}
+.card_text{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #737272;
+}
+a.link_card{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    background: var(--corbg);
+    border:1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(231, 231, 231);
+    font-size: 80%;
+    text-shadow:none;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+a.link_card:hover{
+    color:#BBB3E5;
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .titulo_3{
+        font-size:2.7rem;
+    }
+    .card{
+        padding: 0;
+        border:0;
+        width:90%;
+        border-radius: 10px;
+        box-shadow: 0px 1px 10px 1px black;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+    .card_icon{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .card_titulo{
+        font-size: 2.3rem;
+    }
+    .card_text{
+        font-size: 1.1rem;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    a.link_card{
+        margin-left: 40px;
+        margin-right: 40px;
+        background: var(--corbg);
+        font-size: 1.4rem;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    a.link_card:hover{
+        background:rgb(240, 240, 240);
+        color:#BBB3E5;
+    
+    }
+    
+
+  }

@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import Logo from '../componentes/imagens/logo_Judah2021.png';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -13,7 +15,7 @@ function Navbar() {
                 <div className='navbar-container'>
                     <Link to="/" className='navbar-logo'>
                         JMT 
-                        <img className='Logo_navbar' type="image/png" src="../../public/logo_ Judah2021.png" alt="logo do site" />
+                        <img className='Logo_navbar' type="image/png" src= {Logo} />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

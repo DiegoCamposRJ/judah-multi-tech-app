@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import Logo from '../componentes/imagens/logo_Judah2021.png';
 
 const Footer = () => {
     return(
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className="container-fluid footer">
                 <div className="row justify-content-md-center">
                     <div className="col-auto col-md-12 text-center">
-                    <img className='Logo_footer' src="../componentes/imagens/logo_ Judah2021.png"  alt="Logo_Judah_Multi_Tech_2021"></img>
+                    <img className="Logo_footer" src={Logo}  alt="Logo_Judah_Multi_Tech_2021"></img>
                         <h3 className="Judah_h3">JUDAH MULTI TECH</h3>
                         <p className="blocoCNPJ">CNPJ: 38.324.137/0001-74</p>
                         <p className="blocoCNPJ">INSCRIÇÃO MUNICIPAL: 991.341.09</p>
