@@ -15,7 +15,7 @@ const HomeCard = () => {
                         Desenvolvimento de Sites e Aplicações
                         para sua necessidade.
                     </p>
-                    <Link to='' className="link_card">
+                    <Link to='/servicos' className="link_card">
                         Saiba+
                     </Link>
                 </div>
@@ -28,7 +28,7 @@ const HomeCard = () => {
                         equipamentos na linha Nacional e
                         Internacional.
                     </p>
-                    <Link to='' className="link_card">
+                    <Link to='/servicos' className="link_card">
                         Saiba+
                     </Link>
                 </div>
@@ -41,7 +41,7 @@ const HomeCard = () => {
                         equipamentos para transmissão de Aula
                         e Eventos.
                     </p>
-                    <Link to='' className="link_card">
+                    <Link to='/servicos' className="link_card">
                         Saiba+
                     </Link>
                 </div>

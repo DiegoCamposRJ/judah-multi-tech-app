@@ -21,7 +21,7 @@ const Corpo = () => {
             <div className="row  text-center">
                 <h2 className="titulo_2">JUDAH MULTI TECH</h2>
                 <div className="col-md-6">
-                    <img className='Foto_1 rounded' src={Foto1} alt="Portifolio"></img>
+                    <img className='Foto_1 rounded' src={Foto1} alt="Portfolio"></img>
                 </div>
                 <div className="col-md-6">
                     <p> Atuamos em diversos seguimentos do

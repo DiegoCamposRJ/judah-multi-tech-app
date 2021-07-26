@@ -1,10 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Top from '../Top';
+import Dev from '../Dev';
 
 export default function Servicos() {
     return (
         <div>
-            <h1>Pagina Serviços</h1>
+            <Top />
+            <Dev />
         </div>
     )
 }
