@@ -3,6 +3,7 @@ import '../../App.css';
 import Corpo from '../Corpo';
 import HomeCard from '../HomeCard';
 import Parceria from '../Parceria';
+import Footer from '../Footer';
 
 function Inicio() {
     return (
@@ -10,6 +11,7 @@ function Inicio() {
             <Corpo/>
             <HomeCard/>
             <Parceria/>
+            <Footer/>
 
         </div>
     )

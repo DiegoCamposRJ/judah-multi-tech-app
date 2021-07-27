@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './componentes/Navbar';
-import Footer from './componentes/Footer';
+
 import './App.css';
 import Inicio from './componentes/pages/Inicio';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -20,7 +20,7 @@ function App() {
           <Route path='/projetos' exact component={Projetos} />
           <Route path='*'               component={Pagina404} />
         </Switch>
-        <Footer/>
+        
       </Router>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import '../Pagina404.css';
+import Footer from '../Footer';
 
 export default function Pagina404() {
     return (
@@ -11,6 +12,7 @@ export default function Pagina404() {
 			    <h1 id="word1" className="glitch_word1">404 - Página não encontrada!</h1>
 			    <h1 id="word2" className="glitch_word2">404 - Página não encontrada!</h1>
 		    </div>
+            <Footer/>
         </div>
     )
 }

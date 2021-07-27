@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Foto1 from './imagens/Foto_1.jpg';
 
 function Dev() {
@@ -37,29 +37,36 @@ function Dev() {
                     </h4>
                 </div>
                 <div className="col-md-3 text-center card">
-                    <i className="fas fa-laptop-code card_icon"></i>
+                    <i className="fas fa-fighter-jet card_icon"></i>
                     <h3 className="card_titulo">Agilidade</h3>
                     <p className="card_text">
-                        Desenvolvimento de Sites e Aplicações
-                        para sua necessidade.
+                        Temos a preocupação na entrega
+                        de seu produto ao mercado, pois
+                        contamos com os melhores
+                        serviços de armazenação de sites
+                        do País entregando Agilidade e
+                        Segurança a seus clientes na hora da compra.
                     </p>
                     
                 </div>
                 <div className="col-md-3 text-center card">
-                    <i className="fas fa-laptop-code card_icon"></i>
+                    <i className="far fa-handshake card_icon"></i>
                     <h3 className="card_titulo">Pode Contar</h3>
                     <p className="card_text">
-                        Desenvolvimento de Sites e Aplicações
-                        para sua necessidade.
+                        <ul>
+                            <li>Consultoria</li>
+                            <li>Criação de catálogos</li>
+                            <li>Criação de Sites</li>
+                            <li>Revenda de Servidores</li>
+                        </ul>
                     </p>
                     
                 </div>
                 <div className="col-md-3 text-center card">
-                    <i className="fas fa-laptop-code card_icon"></i>
+                    <i className="fas fa-server card_icon"></i>
                     <h3 className="card_titulo">Tecnologias do Momento</h3>
                     <p className="card_text">
-                        Desenvolvimento de Sites e Aplicações
-                        para sua necessidade.
+                        Trabalhamos com as melhores tecnologia de comunicação na criação rápida de sites.
                     </p>
                     
                 </div>
@@ -71,4 +78,4 @@ function Dev() {
     )
 }
 
-export default Dev
+export default Dev;
