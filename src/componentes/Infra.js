@@ -1,5 +1,5 @@
 import React from 'react';
-import Foto1 from './imagens/Foto_1.jpg';
+import Foto4 from './imagens/infra_Judah.jpg';
 
 function Infra() {
     return (
@@ -11,7 +11,7 @@ function Infra() {
                     inventários, manutenção de equipamentos e canais de helpDesk.
                 </p>
                 <div className='col-md-6'>
-                    <img className='Foto_1 rounded' src={Foto1} alt="Portfolio"></img>
+                    <img className='Foto_1 rounded' src={Foto4} alt="Portfolio"></img>
                 </div>
                 <div className='col-md-6'>
                     <h4>

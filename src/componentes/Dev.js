@@ -1,5 +1,5 @@
 import React from 'react';
-import Foto1 from './imagens/Foto_1.jpg';
+import Foto2 from './imagens/developer_TI.png';
 import './Dev.css';
 
 function Dev() {
@@ -15,10 +15,10 @@ function Dev() {
                     facilitando o meio de passar as aulas para seus alunos.
                 </p>
                 <div className='col-md-6'>
-                    <img className='Foto_1 rounded' src={Foto1} alt="Portfolio"></img>
+                    <img className='Foto_2 rounded' src={Foto2} alt="Portfolio"></img>
                 </div>
                 <div className='col-md-6'>
-                    <h4>
+                    <h4 className='dev_subtitulo'>
                         O termo E-commerce (ou “comércio eletrônico”
                         em português) é a comercialização de produtos
                         e serviços pela internet, onde as transações são
@@ -39,7 +39,7 @@ function Dev() {
                 </div>
                 <div className="col-md-3 text-center card">
                     <i className="fas fa-fighter-jet card_icon"></i>
-                    <h3 className="card_titulo">Agilidade</h3>
+                    <h3 className="card_titulo2">Agilidade</h3>
                     <p className="card_text">
                         Temos a preocupação na entrega
                         de seu produto ao mercado, pois
@@ -52,7 +52,7 @@ function Dev() {
                 </div>
                 <div className="col-md-3 text-center card">
                     <i className="far fa-handshake card_icon"></i>
-                    <h3 className="card_titulo">Pode Contar</h3>
+                    <h3 className="card_titulo2">Pode Contar</h3>
                     <p className="card_text">
                         <ul>
                             <li>Consultoria</li>
@@ -65,7 +65,7 @@ function Dev() {
                 </div>
                 <div className="col-md-3 text-center card">
                     <i className="fas fa-server card_icon"></i>
-                    <h3 className="card_titulo">Tecnologias do Momento</h3>
+                    <h3 className="card_titulo2">Tecnologias do Momento</h3>
                     <p className="card_text">
                         Trabalhamos com as melhores tecnologia de comunicação na criação rápida de sites.
                     </p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Foto1 from './imagens/Foto_1.jpg';
+import Foto1 from './imagens/infra_Judah.jpg';
 
 function Producao() {
     return (
