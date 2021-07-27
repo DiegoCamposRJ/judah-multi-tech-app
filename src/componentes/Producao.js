@@ -38,8 +38,7 @@ function Producao() {
                 <div className="col-md-5 text-center card">
                     <i className="fas fa-clipboard-list card_icon"></i>
                     <h3 className="card_titulo3">Pode Contar</h3>
-                    <p className="card_text">
-                        <ul>
+                        <ul className="card_text">
                             <li>Análise Textual</li>
                             <li>Animação</li>
                             <li>Captação de Recursos</li>
@@ -47,8 +46,6 @@ function Producao() {
                             <li>Marketing</li>
                             <li>Mídias Digitais</li>
                         </ul>
-                    </p>
-                    
                 </div>
                 
 

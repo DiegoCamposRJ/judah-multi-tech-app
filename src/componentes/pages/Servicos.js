@@ -12,7 +12,7 @@ export default function Servicos() {
         <div>
             <Top />
             <Dev />
-            <Producao/>
+            <Producao />
             <Infra />
             <Footer/>
         </div>

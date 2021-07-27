@@ -1,20 +1,21 @@
 import React from 'react';
 import Foto4 from './imagens/infra_Judah.jpg';
+import './Infra.css';
 
 function Infra() {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid infra_container'>
             <div className='row'>
-                <h1>Infraestrutura em TI</h1>
-                <p className="">Tenha o melhor de seguimento em tecnologia para seu local de
+                <h1 className='infra_titulo'>Infraestrutura em TI</h1>
+                <p className="infra_texto1">Tenha o melhor de seguimento em tecnologia para seu local de
                     trabalho com agilidade, segurança de dados, implementação de
                     inventários, manutenção de equipamentos e canais de helpDesk.
                 </p>
                 <div className='col-md-6'>
-                    <img className='Foto_1 rounded' src={Foto4} alt="Portfolio"></img>
+                    <img className='Foto_4 rounded' src={Foto4} alt="Portfolio"></img>
                 </div>
                 <div className='col-md-6'>
-                    <h4>
+                    <h4 className='infra_subtitulo'>
                         A manutenção dos computadores de sua
                         empresa é essencial para que eles continuem
                         funcionando por um bom tempo, limpeza
@@ -32,7 +33,7 @@ function Infra() {
                 </div>
                 <div className="col-md-5 text-center card">
                     <i className="fas fa-laptop-medical card_icon"></i>                 
-                    <h3 className="card_titulo">Manutenção</h3>
+                    <h3 className="card_titulo4">Manutenção</h3>
                     <p className="card_text">
                         Mais do que suporte técnico temos
                         profissionais prontos para fazer
@@ -43,7 +44,7 @@ function Infra() {
                 </div>
                 <div className="col-md-5 text-center card">
                     <i className="fas fa-user-md card_icon"></i>                   
-                    <h3 className="card_titulo">Help Desk</h3>
+                    <h3 className="card_titulo4">Help Desk</h3>
                     <p className="card_text">
                         Temos o serviço especial, com um
                         canal de comunicação dedica para
@@ -54,7 +55,7 @@ function Infra() {
                 </div>
                 <div className="col-md-5 text-center card">
                     <i className="fas fa-tools card_icon"></i>                  
-                    <h3 className="card_titulo">Lab</h3>
+                    <h3 className="card_titulo4">Lab</h3>
                     <p className="card_text">
                         Possuímos um Laboratório pronto
                         para realizar teste, recuperar
@@ -67,7 +68,7 @@ function Infra() {
                 </div>
                 <div className="col-md-5 text-center card">
                     <i className="fas fa-file-signature card_icon"></i>                   
-                    <h3 className="card_titulo">Check List</h3>
+                    <h3 className="card_titulo4">Check List</h3>
                     <p className="card_text">
                         Tenha o total controle de seus
                         equipamento com a
@@ -79,7 +80,7 @@ function Infra() {
                 </div>
                 <div className="col-md-11 text-center card">
                     <i className="fas fa-award card_icon"></i>                 
-                    <h3 className="card_titulo">Consultoria</h3>
+                    <h3 className="card_titulo4">Consultoria</h3>
                     <p className="card_text">
                         Possuímos especialista prontos para te auxiliar em 
                         determinado seguimento no ramo tecnológico como na 

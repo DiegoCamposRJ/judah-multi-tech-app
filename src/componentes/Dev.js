@@ -48,20 +48,16 @@ function Dev() {
                         do País entregando Agilidade e
                         Segurança a seus clientes na hora da compra.
                     </p>
-                    
                 </div>
                 <div className="col-md-3 text-center card">
                     <i className="far fa-handshake card_icon"></i>
                     <h3 className="card_titulo2">Pode Contar</h3>
-                    <p className="card_text">
-                        <ul>
+                        <ul className='card_text'>
                             <li>Consultoria</li>
                             <li>Criação de catálogos</li>
                             <li>Criação de Sites</li>
                             <li>Revenda de Servidores</li>
                         </ul>
-                    </p>
-                    
                 </div>
                 <div className="col-md-3 text-center card">
                     <i className="fas fa-server card_icon"></i>

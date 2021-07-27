@@ -20,7 +20,6 @@ function App() {
           <Route path='/projetos' exact component={Projetos} />
           <Route path='*'               component={Pagina404} />
         </Switch>
-        
       </Router>
     </div>
   );
