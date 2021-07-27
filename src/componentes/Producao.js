@@ -23,8 +23,8 @@ function Producao() {
 
                     </h4>
                 </div>
-                <div className="col-md-5 text-center card">
-                    <i className="material-icons card_icon">video_camera_front</i>                   
+                <div className="col-md-5 text-center card">                    
+                    <i className='bx bxs-camera-movie card_icon'></i>
                     <h3 className="card_titulo">Equipamento</h3>
                     <p className="card_text">
                         Nossa empresa possui os equipamentos de diferentes

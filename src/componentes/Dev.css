@@ -1,0 +1,24 @@
+.dev_container{
+    background-color: #212295;
+}
+.dev_titulo{
+    margin-top: 35px;
+    margin-bottom:20px;
+    color: #F0EFED;
+}
+.dev_texto1{
+    margin-bottom: 25px;
+    padding-left:45px;
+    padding-right:45px;
+    justify-content: space-between;
+    align-items: center;
+    color: #F0EFED;
+    font-size: 1.2rem;
+}
+.Foto_2{
+    max-width:100%;
+    height:auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

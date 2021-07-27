@@ -1,12 +1,13 @@
 import React from 'react';
 import Foto1 from './imagens/Foto_1.jpg';
+import './Dev.css';
 
 function Dev() {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid dev_container'>
             <div className='row'>
-                <h1>Desenvolvimento de Aplicações</h1>
-                <p className="">Somos capazes de solucionar seu problema da melhor forma possível, 
+                <h1 className='dev_titulo'>Desenvolvimento de Aplicações</h1>
+                <p className="dev_texto1">Somos capazes de solucionar seu problema da melhor forma possível, 
                     ou tirar seu projeto do papel e torna-lo real  
                     pois temos uma visão de amplo conhecimento no mercado de desenvolvimento
                     de Sites para seu negócio tanto para o mercado de e-commerce com
