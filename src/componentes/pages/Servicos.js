@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import Top from '../Top';
 import Dev from '../Dev';
 import Producao from '../Producao';
+import Infra from '../Infra';
 
 
 export default function Servicos() {
@@ -12,6 +13,7 @@ export default function Servicos() {
             <Top />
             <Dev />
             <Producao/>
+            <Infra />
             <Footer/>
         </div>
     )
