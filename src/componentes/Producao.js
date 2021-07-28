@@ -12,7 +12,7 @@ function Producao() {
                     possui os melhores equipamentos a sua disposição.
                 </p>
                 <div className='col-md-6'>
-                    <img className='Foto_3 rounded' src={Foto3} alt="Portfolio"></img>
+                    <img className='Foto_3 ' src={Foto3} alt="Portfolio"></img>
                 </div>
                 <div className='col-md-6'>
                     <h4 className='prod_subtitulo'>

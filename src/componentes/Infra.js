@@ -12,7 +12,7 @@ function Infra() {
                     inventários, manutenção de equipamentos e canais de helpDesk.
                 </p>
                 <div className='col-md-6'>
-                    <img className='Foto_4 rounded' src={Foto4} alt="Portfolio"></img>
+                    <img className='Foto_4 ' src={Foto4} alt="Portfolio"></img>
                 </div>
                 <div className='col-md-6'>
                     <h4 className='infra_subtitulo'>

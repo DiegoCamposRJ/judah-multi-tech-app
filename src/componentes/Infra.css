@@ -28,7 +28,9 @@
 .Foto_4{
     max-width:100%;
     height:auto;
-    border-radius: 20px;
+    border-radius: 10%;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
