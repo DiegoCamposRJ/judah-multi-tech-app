@@ -78,7 +78,7 @@ function Infra() {
                         de um possível erro.
                     </p>
                 </div>
-                <div className="col-md-11 text-center card">
+                <div className="col-md-5 centralizar text-center card">
                     <i className="fas fa-award card_icon"></i>                 
                     <h3 className="card_titulo4">Consultoria</h3>
                     <p className="card_text">

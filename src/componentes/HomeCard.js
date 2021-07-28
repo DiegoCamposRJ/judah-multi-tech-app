@@ -34,6 +34,7 @@ const HomeCard = () => {
                 </div>
 
                 <div className="col-md-3 text-center card">
+                <div className='card1'>
                     <i className="fas fa-camera card_icon"></i>
                     <h3 className="card_titulo">Produção Audiovisual</h3>
                     <p className="card_text">
@@ -41,9 +42,12 @@ const HomeCard = () => {
                         equipamentos para transmissão de Aula
                         e Eventos.
                     </p>
-                    <Link to='/servicos' className="link_card">
+                </div>
+                    
+                    <Link to='/servicos' className="link_card">                    
                         Saiba+
                     </Link>
+                    
                 </div>
             </div>
         </div>
