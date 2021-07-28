@@ -1,9 +1,43 @@
+.top_corpo{
+  background-image: url(./imagens/fundo_Banner_corpo2.jpg);
+   
+}
+.texto_bem{
+  text-align: left;
+  font-size:3.9rem;
+  margin-top: 2.5rem;
+  margin-left: 20px;
+  margin-bottom: 2.rem;
+  color:#8738F5;
+}
+span{
+  color:#FCD200;
+}
+.Logo_corpo{
+  max-width:100%;
+  height:auto;
+  border-radius:10%;
+  margin-top: 20%;
+  margin-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.text_1{
+  font-size: 1.6rem;
+  color:#8738F5;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
 .Foto_1{
     max-width:100%;
     height:auto;
-    border-radius: 20px;
+    border-radius:10%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -17,12 +51,11 @@
 .corpo{
     background-color: #0055F2;
   }
-  .text_1{
-    font-size: 2.3rem;
-    color:#2d5596;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Roboto', sans-serif;
+ 
+  .text_corpo{
+    margin-top: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
   }
+  
