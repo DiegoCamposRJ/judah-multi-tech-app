@@ -24,10 +24,10 @@ function Producao() {
 
                     </h4>
                 </div>
-                <div className="col-md-5 text-center card">                    
+                <div className="col-md-5 text-center card3">                    
                     <i className='bx bxs-camera-movie card_icon'></i>
                     <h3 className="card_titulo3">Equipamento</h3>
-                    <p className="card_text">
+                    <p className="card_text3">
                         Nossa empresa possui os equipamentos de diferentes
                         orçamentos para sets de gravação
                         de vídeo aulas ou realizar uma
@@ -35,10 +35,10 @@ function Producao() {
                     </p>
                     
                 </div>
-                <div className="col-md-5 text-center card">
+                <div className="col-md-5 text-center card3">
                     <i className="fas fa-clipboard-list card_icon"></i>
                     <h3 className="card_titulo3">Pode Contar</h3>
-                        <ul className="card_text">
+                        <ul className="card_text3">
                             <li>Análise Textual</li>
                             <li>Animação</li>
                             <li>Captação de Recursos</li>

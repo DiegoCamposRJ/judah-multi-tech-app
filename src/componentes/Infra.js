@@ -31,10 +31,10 @@ function Infra() {
                         contratar um especialista para cuidar de sua TI.
                     </h4>
                 </div>
-                <div className="col-md-5 text-center card">
+                <div className="col-md-5 text-center card4">
                     <i className="fas fa-laptop-medical card_icon"></i>                 
                     <h3 className="card_titulo4">Manutenção</h3>
-                    <p className="card_text">
+                    <p className="card_text4">
                         Mais do que suporte técnico temos
                         profissionais prontos para fazer
                         seus equipamentos voltarem a ficar
@@ -42,10 +42,10 @@ function Infra() {
                         que antes.
                     </p>
                 </div>
-                <div className="col-md-5 text-center card">
+                <div className="col-md-5 text-center card4">
                     <i className="fas fa-user-md card_icon"></i>                   
                     <h3 className="card_titulo4">Help Desk</h3>
-                    <p className="card_text">
+                    <p className="card_text4">
                         Temos o serviço especial, com um
                         canal de comunicação dedica para
                         suas necessidades na escala de 5×2
@@ -53,10 +53,10 @@ function Infra() {
                         incidente.
                     </p>
                 </div>
-                <div className="col-md-5 text-center card">
+                <div className="col-md-5 text-center card4">
                     <i className="fas fa-tools card_icon"></i>                  
                     <h3 className="card_titulo4">Lab</h3>
-                    <p className="card_text">
+                    <p className="card_text4">
                         Possuímos um Laboratório pronto
                         para realizar teste, recuperar
                         arquivos, limpeza química em seus
@@ -66,10 +66,10 @@ function Infra() {
                         geral.
                     </p>
                 </div>
-                <div className="col-md-5 text-center card">
+                <div className="col-md-5 text-center card4">
                     <i className="fas fa-file-signature card_icon"></i>                   
                     <h3 className="card_titulo4">Check List</h3>
-                    <p className="card_text">
+                    <p className="card_text4">
                         Tenha o total controle de seus
                         equipamento com a
                         implementação de inventario
@@ -78,10 +78,10 @@ function Infra() {
                         de um possível erro.
                     </p>
                 </div>
-                <div className="col-md-5 centralizar text-center card">
+                <div className="col-md-5 centralizar text-center card4">
                     <i className="fas fa-award card_icon"></i>                 
                     <h3 className="card_titulo4">Consultoria</h3>
-                    <p className="card_text">
+                    <p className="card_text4">
                         Possuímos especialista prontos para te auxiliar em 
                         determinado seguimento no ramo tecnológico como na 
                         compra de equipamentos ou aquisição de software e muito mais.

@@ -37,10 +37,10 @@ function Dev() {
                         presencial de ensino-aprendizagem.
                     </h4>
                 </div>
-                <div className="col-md-3 text-center card">
+                <div className="col-md-3 text-center card2">
                     <i className="fas fa-fighter-jet card_icon"></i>
                     <h3 className="card_titulo2">Agilidade</h3>
-                    <p className="card_text">
+                    <p className="card_text2">
                         Temos a preocupação na entrega
                         de seu produto ao mercado, pois
                         contamos com os melhores
@@ -49,20 +49,20 @@ function Dev() {
                         Segurança a seus clientes na hora da compra.
                     </p>
                 </div>
-                <div className="col-md-3 text-center card">
+                <div className="col-md-3 text-center card2">
                     <i className="far fa-handshake card_icon"></i>
                     <h3 className="card_titulo2">Pode Contar</h3>
-                        <ul className='card_text'>
+                        <ul className='card_text2'>
                             <li>Consultoria</li>
                             <li>Criação de catálogos</li>
                             <li>Criação de Sites</li>
-                            <li>Revenda de Servidores</li>
+                            <li>Revenda<br/> de Servidores</li>
                         </ul>
                 </div>
-                <div className="col-md-3 text-center card">
+                <div className="col-md-3 text-center card2">
                     <i className="fas fa-server card_icon"></i>
                     <h3 className="card_titulo2">Tecnologias do Momento</h3>
-                    <p className="card_text">
+                    <p className="card_text2">
                         Trabalhamos com as melhores tecnologia de comunicação na criação rápida de sites.
                     </p>
                     

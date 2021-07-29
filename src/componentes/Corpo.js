@@ -8,7 +8,10 @@ const Corpo = () => {
         <>  <div className="container-fluid"> 
                 <div className='row top_corpo'>
                     <div className='col-md-6'>
-                        <h1 className='texto_bem'>Bem-Vindo<br/>A<br/><span>Judah Multi Tech.</span></h1>
+                        <h1 className='texto_bem'>Bem-Vindo a<br/>
+                            <span>Judah Multi Tech.</span><br/>
+                            Esperamos em te ajudar!
+                        </h1>
                         <p className="text_1">
                             A primeiro do seguimento de
                             Multisserviços em tecnologia (TIC),

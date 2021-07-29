@@ -7,8 +7,8 @@ function Top() {
             <div className='row'>
                 <h1 className='top_titulo text-center'>Judah Multi Tech - Serviços</h1>
                 <p className="top_texto">Estamos sempre preocupados na entrega dos nossos serviços para cada cliente.<br />
-                    Buscando aperfeiçoar cada vez mais com diversas Habilidade inovadoras em todas<br />
-                    as demandas para os setores da Tecnologia da Informação e Produção Audiovisual,<br />
+                    Buscando aperfeiçoar cada vez mais com diversas Habilidade inovadoras em todas
+                    as demandas para os setores da Tecnologia da Informação e Produção Audiovisual,
                     completando cada área das nossas demandas. </p>
             </div>
             
