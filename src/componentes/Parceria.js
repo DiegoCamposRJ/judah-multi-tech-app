@@ -9,7 +9,7 @@ export default class Parceria extends Component{
             <Fragment>
                 <div className="container-fluid">
                     <div className="row text-center">
-                        <h2 className="parceria_titulo text-center">Parceria e Especialização</h2>
+                        <h2 className="parceria_titulo text-center">Parceria e Especializações.</h2>
                         <ul className="appList">
                             {data.map((item, index) =>(    
                                 <li className="item" key={item.id}>
