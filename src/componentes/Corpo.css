@@ -16,10 +16,16 @@
   -3px 3px 0px #FFF,      
    3px -3px 0px #FFF,    
    3px 0px 0px #FFF;
+
+   -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
 }
 span{
   color:#FCD200;
   font-weight: bold;
+  animation: bounceIn 3s infinite;
 }
 .Logo_corpo{
   max-width:100%;
