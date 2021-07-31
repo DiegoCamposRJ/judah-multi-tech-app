@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'American-Captain';
+  src: url('./American-Captain.woff') format('woff');
+  font-style: normal;
+}
 .Logo_footer{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -23,7 +28,7 @@
     font-weight: 400;
   }
   .Judah_h3{
-    font-family: 'Anton', sans-serif;
+    font-family: 'American-Captain';
     font-size:70px;
     font-weight: 400;
     margin-top:20px;
