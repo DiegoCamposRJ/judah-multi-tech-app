@@ -1,0 +1,26 @@
+
+.cardBook{
+    background:#ffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    border-radius: .25rem;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.book_spaw{
+    color:#FCD200;
+    font-weight: bold;
+    animation: bounceIn 3s infinite;
+  }
+  
+    
