@@ -1,0 +1,24 @@
+import React from 'react';
+import {dataProjetos} from './dataProjetos';
+function NossoCliente() {
+    return (
+        <div className='container-fluid'>
+         <div className='row'>
+             <h1>Judah Multi Tech - Projetos</h1>
+             <p>Conheçam agora um pouco mais de quais os clientes a Judah Multi Tech tem atendido de forma clara sem que a já quebra de confidencialidade dos nossos cliente.</p>
+             <div className=''>
+                <ul className='appList'>
+                  {dataProjetos.map((item, index) =>(    
+                    <li className='item card' key={item.id}>
+                        
+                    </li>
+                    ))}
+                </ul>
+             </div>
+         </div>
+            
+        </div>
+    )
+}
+
+export default NossoCliente;
