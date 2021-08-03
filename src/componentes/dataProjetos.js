@@ -19,8 +19,8 @@ export const dataProjetos =[
     },
     {
         id=2,
-        nome='Missão Tikuna',
-        tipo='Site para ONG',
+        nome='Escola Contoso',
+        tipo='plataforma EAD',
         ano='2000-2021',
         images: require('./imagens/Banner_Site_MissaoTikuna.PNG').default,
         url: 'https://missaotikuna.org/',
