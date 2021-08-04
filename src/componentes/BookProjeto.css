@@ -1,4 +1,7 @@
-
+.book_reset{
+    margin:0;
+    padding:0;
+}
 .cardBook{
     background:#ffff;
     position: relative;
@@ -9,18 +12,84 @@
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
-    margin-top: 5%;
-    margin-left: 6%;
-    margin-bottom: 2%;
+    margin-top: 3.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3.5%;
     border-radius: .25rem;
     padding-right: 0px;
     padding-left: 0px;
 }
-
+.itemTitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    weight:500;
+    color:#212121;
+}
+.itemTipo{
+    text-align: left;
+    
+    style:normal;
+}
+.itemServico{
+    text-size:1.5rem ;
+    text-align: left;
+    
+    color:#616161;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0.1;
+    weight:400;
+}
+.itemAno{
+    text-align: left;
+}
 .book_spaw{
     color:#FCD200;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-weight: bold;
     animation: bounceIn 3s infinite;
   }
-  
+  .bookBotao{
+    position: relative;
+    top: 16px;
     
+  }
+  a.bookLink{
+    position: relative;
+    top: 9px;
+    border-radius: 10px;
+    height:50px;
+    background:#3134E0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+     
+    text-decoration: none;
+    color:#fff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .book_reset{
+        margin:0;
+        padding:0;
+    }
+    .mobile{
+        margin:0;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .cardBook{
+        width: 90%;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+  }
