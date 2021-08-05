@@ -42,6 +42,13 @@
     font-size: 35px;
 
   }
+  .blocoMunicipal{
+    margin:0;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+  }
   .bloco_infor{
     font-size: 25px;
     margin-top: 30px;
@@ -104,6 +111,13 @@
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-size: 130%;
+    }
+    .blocoMunicipal{
+      margin:0;
+      line-height: 1.1;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 100%;
     }
     .bloco_infor{
       font-size: 90%;

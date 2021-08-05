@@ -12,7 +12,7 @@ const Footer = () => {
                     <img className="Logo_footer" src={Logo}  alt="Logo_Judah_Multi_Tech_2021"></img>
                         <h3 className="Judah_h3">JUDAH MULTI TECH</h3>
                         <p className="blocoCNPJ">CNPJ: 38.324.137/0001-74</p>
-                        <p className="blocoCNPJ">INSCRIÇÃO MUNICIPAL: 991.341.09</p>
+                        <p className="blocoMunicipal">INSCRIÇÃO MUNICIPAL: 991.341.09</p>
                         <p className="blocoCNPJ">RIO DE JANEIRO</p>
                         <p className="bloco_infor">
                             Atendimento de segunda à sexta-feira de 9:00 até 18:00 horas.
