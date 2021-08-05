@@ -10,8 +10,8 @@ function Dev() {
                 <p className="dev_texto1">Somos capazes de solucionar seu problema da melhor forma possível, 
                     ou tirar seu projeto do papel e torna-lo real  
                     pois temos uma visão de amplo conhecimento no mercado de desenvolvimento
-                    de Sites para seu negócio tanto para o mercado de e-commerce com
-                    também na sua escola na implementação de plataforma 100% EAD
+                    de Sites para seu negócio tanto para o mercado de e-commerce como
+                    também para sua escola na implementação de plataforma 100% EAD
                     facilitando o meio de passar as aulas para seus alunos.
                 </p>
                 <div className='col-md-6'>
@@ -41,18 +41,17 @@ function Dev() {
                     <i className="fas fa-fighter-jet card_icon"></i>
                     <h3 className="card_titulo2">Agilidade</h3>
                     <p className="card_text2">
-                        Temos a preocupação na entrega
-                        de seu produto ao mercado, pois
-                        contamos com os melhores
-                        serviços de armazenação de sites
-                        do País entregando Agilidade e
-                        Segurança a seus clientes na hora da compra.
+                        Temos a preocupação na entrega de seu produto ao mercado.<br/>
+                        Pois contamos com os melhores Servidores no assunto de 
+                        tecnologia em armazenação de sites e serviços do País, 
+                        trazendo assim Agilidade e Segurança a seus clientes 
+                        na hora de funcionar suas Aplicações.
                     </p>
                 </div>
                 <div className="col-md-3 text-center card2">
                     <i className="far fa-handshake card_icon"></i>
                     <h3 className="card_titulo2">Pode Contar</h3>
-                        <ul className='card_text2'>
+                        <ul className='card_text2-1'>
                             <li>Consultoria</li>
                             <li>Criação de catálogos</li>
                             <li>Criação de Sites</li>

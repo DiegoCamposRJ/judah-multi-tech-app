@@ -41,6 +41,11 @@
     text-align: justify;
     color: #737272;
 }
+.card_text2-1{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #737272;
+}
 .Foto_2{
     max-width:100%;
     height:auto;
@@ -63,7 +68,7 @@
         padding-right:10%;
         font-size:1.3rem;
         line-height: 1.4;
-        text-align: justify;
+        text-align: center;
     }
    
     .card2{
@@ -74,6 +79,13 @@
     }
     
     .card_text2{
+        font-size: 1.2rem;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        color: #737272;
+    }
+    .card_text2-1{
         font-size: 1.2rem;
         padding-left: 10%;
         padding-right: 10%;
