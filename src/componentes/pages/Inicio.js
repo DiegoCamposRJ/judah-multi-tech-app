@@ -5,6 +5,7 @@ import HomeCard from '../HomeCard';
 import Parceria from '../Parceria';
 import Footer from '../Footer';
 
+//finalizado 1.0
 function Inicio() {
     return (
         <div>
@@ -12,10 +13,9 @@ function Inicio() {
             <HomeCard/>
             <Parceria/>
             <Footer/>
-
         </div>
     )
 }
 
-export default Inicio
+export default Inicio;
 

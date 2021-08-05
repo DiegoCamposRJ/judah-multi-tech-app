@@ -6,7 +6,7 @@ import Dev from '../Dev';
 import Producao from '../Producao';
 import Infra from '../Infra';
 
-
+//finalizado 1.0
 export default function Servicos() {
     return (
         <div>
