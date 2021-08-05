@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import Navbar from './componentes/Navbar';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' exact component={Inicio} />
           <Route path='/servicos' exact component={Servicos} />
           <Route path='/projetos' exact component={Projetos} />
+           / / pag erro 404 para demais rotos
           <Route path='*'               component={Pagina404} />
         </Switch>
       </Router>
