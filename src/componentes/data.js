@@ -45,6 +45,6 @@ export const data =[
     },
     {
         id:11,
-        images: require('./imagens/amd_logo.png').default,
+        images: require('./imagens/aws_logo.png').default,
     },
 ];
