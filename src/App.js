@@ -20,7 +20,7 @@ function App() {
           <Route path='/servicos' exact component={Servicos} />
           <Route path='/projetos' exact component={Projetos} />
            / / pag erro 404 para demais rotos
-          <Route path='*'               component={Pagina404} />
+          <Route path='/*'               component={Pagina404} />
         </Switch>
       </Router>
     </div>
