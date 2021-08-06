@@ -4,7 +4,7 @@ import Navbar from './componentes/Navbar';
 
 import './App.css';
 import Inicio from './componentes/pages/Inicio';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Servicos from './componentes/pages/Servicos';
 import Projetos from './componentes/pages/Projetos';
 import Pagina404 from './componentes/pages/Pagina404';
@@ -20,7 +20,7 @@ function App() {
           <Route path='/servicos' exact component={Servicos} />
           <Route path='/projetos' exact component={Projetos} />
            / / pag erro 404 para demais rotos
-          <Route path='/*'               component={Pagina404} />
+          <Route path='/'               component={Pagina404} />
         </Switch>
       </Router>
     </div>
