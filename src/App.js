@@ -5,7 +5,7 @@ import Navbar from './componentes/Navbar';
 import './App.css';
 import Inicio from './componentes/pages/Inicio';
 //re escrever com BrowserRouter para usar HashRouter de react-router-dom
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Servicos from './componentes/pages/Servicos';
 import Projetos from './componentes/pages/Projetos';
 import Pagina404 from './componentes/pages/Pagina404';
