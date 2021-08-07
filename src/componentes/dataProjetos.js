@@ -32,7 +32,7 @@ export const dataProjetos =[
         tipo:'Site para EAD',
         ano:'2021',
         images: require('./imagens/escolaWeb.jpg').default,
-        url: '/erro404',
+        url: 'https://judahmultitech.ga/erro404',
         status: '🟢 on-line',
     },
     {
@@ -41,7 +41,7 @@ export const dataProjetos =[
         tipo:'app de desconto',
         ano:'2021',
         images: require('./imagens/mercadinho.jpg').default,
-        url: '/erro404',
+        url: 'https://judahmultitech.ga/erro404',
         status: '🟢 on-line',
     },
     {
@@ -50,7 +50,7 @@ export const dataProjetos =[
         tipo:'Em Andamento',
         ano:'2021',
         images: require('./imagens/Book_SuporteTI.jpg').default,
-        url: '/erro404',
+        url: 'https://judahmultitech.ga/erro404',
         status: '🟢 on-line',
     },
 ];
