@@ -48,7 +48,7 @@ const Footer = () => {
 
                         <div className="col-md-4 text-center">
                             <h5 className="link_footer">
-                                <Link  to='*' className="fas fa-user-shield icon_footer ">
+                                <Link  to='/erro404' className="fas fa-user-shield icon_footer ">
                                     Política de Privacidade.
                                 </Link>
                             </h5> 
