@@ -20,7 +20,7 @@ const Footer = () => {
                             Duvidas é Informações.
                         </p>
                         <div>
-                        <p className="tel_email_1"><i className="fab fa-whatsapp"></i>  (21)98953-7245</p>
+                        {/*<p className="tel_email_1"><i className="fab fa-whatsapp"></i>  (21)98953-7245</p>*/}
                         <p className="tel_email_2"><i className="fas fa-mail-bulk"></i>  judah.multitech@gmail.com</p>
                         </div>
                         
