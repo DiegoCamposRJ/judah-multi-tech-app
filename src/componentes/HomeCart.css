@@ -30,7 +30,7 @@
 .card{
     margin: 0;
     border-radius: 10px;
-    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
     margin: 5% 4%;
 }
 .card_icon{
@@ -56,7 +56,7 @@ a.link_card{
     margin-left: 50px;
     margin-right: 50px;
     text-decoration: none;
-    background: var(--corbg);
+    background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
     border:1px solid #fff;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(231, 231, 231);
@@ -92,8 +92,6 @@ a.link_card:hover{
 
 
 
-
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     
@@ -105,7 +103,7 @@ a.link_card:hover{
         border:0;
         width:90%;
         border-radius: 10px;
-        box-shadow: 0px 1px 10px 1px black;
+        box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 20px;
@@ -125,7 +123,7 @@ a.link_card:hover{
     a.link_card{
         margin-left: 40px;
         margin-right: 40px;
-        background: var(--corbg);
+        background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
         font-size: 1.4rem;
         margin-top: 20px;
         margin-bottom: 30px;
